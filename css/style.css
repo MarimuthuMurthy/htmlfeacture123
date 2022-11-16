@@ -1,0 +1,150 @@
+#page-body
+{
+  /* position: relative; */
+  width: 100%;
+  height: 740px;
+}
+.page-1 {
+  width: 21cm;
+  min-height: 28cm;
+  margin: 1cm auto;
+  border: 1px #d3d3d3 solid;
+  position: relative;
+}
+body {
+  font-family: helvetica !important;
+  font-size: 14pt;
+  position: relative;
+}
+#overlay {
+  position: absolute;
+  top:0px;
+  height: 820px;
+  width: 100%;
+  background-image: url("../img/coverimage_young_star.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+}
+#content {
+  position: absolute;
+  bottom: 30vh;
+  width: 100%;
+}
+#postal-address {
+  margin: 0cm;
+  margin-left: 1.5cm;
+  margin-top: 0cm;
+  margin-bottom: 1cm;
+  font-size: 10pt;
+}
+.blue-title-section {
+  background-color: #07559b;
+  color: #fff;
+  width: 60%;
+  position: absolute;
+}
+.header-logo {
+  background-color: #2e498f;
+  padding: 15px 10px 10px 40px;
+}
+.header-logo img {
+  height: 50px;
+}
+.footer {
+height: 10px;
+width: 100%;
+background-color: #07559b;
+}
+.footer-info-fix {
+  padding: 20px 20px;
+  font-size:17px;
+  padding-bottom: 0px;
+  bottom: 0px;
+}
+#overlay-1 {
+  background-image: url("../img/innerimage_young_star_common.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-color: #ccc;
+}
+#postal-address {
+  margin: 0cm;
+  margin-left: 1.5cm;
+  margin-top: 0cm;
+  margin-bottom: 1cm;
+  font-size: 10pt;
+}
+.blue-title-section {
+  background-color: #07559b;
+  color: #fff;
+  width: 40%;
+  position: relative;
+  padding: 30px 60px;
+  top:522px;
+}
+.header-name {
+  background-color: #2e498f;
+  padding: 23px 20px 23px 60px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+.header-logo img {
+  height: 50px;
+}
+.footer {
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+  font-size: 14px;
+}
+.footer-info-fixed {
+  background-color: #fff;
+  padding: 0px 10px;
+  font-size: 12px;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+}
+.img-text {
+  font-size: 32px;
+  color: #2e498f;
+  font-weight: 700;
+  width: 50%;
+  position: absolute;
+  bottom: 32px;
+  left: 30px;
+  font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.icon-well {
+  padding-top:30px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.icon-row {
+  display: flex;
+  margin-top: 20px;
+}
+.a-img {
+  margin-right: 20px;
+}
+.a-img img {
+  height: 46px;
+}
+.a-center {
+  align-items: center;
+  display: flex;
+}
+.space_between
+{
+  padding-top: 40px;
+}
