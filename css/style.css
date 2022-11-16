@@ -229,5 +229,31 @@ td{
 {
     padding-right: 50px;
 }
+.seventhClass
+{
+  position: absolute;
+  bottom: 10px;
+  height: 40px;
+  width: 100%;
+  background-color: #07559b;
+}
+.seventhText
+{
+  position: absolute;
+  top:33%;
+  left: 33%;
+  height: 300px;
+  width: 300px;
+}
+.seventhText2
+{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.seventhText3
+{
+  text-align: center;
+  padding-bottom: 50px;
+}
 
 
