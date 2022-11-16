@@ -220,4 +220,14 @@ td{
 {
   padding-top: 340px;
 }
+.tableDiv
+{
+  height: 720px;
+  width: 100%;
+}
+.siPadding
+{
+    padding-right: 50px;
+}
+
 
